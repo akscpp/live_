@@ -38,7 +38,7 @@ body {
 }
 
 .firstRow {
-    height: 565px;
+    height: fit-content;
 
     /* height: 768px; */
     background-color: #212156;
@@ -47,7 +47,7 @@ body {
 
 #subText {
     height: fit-content;
-    margin-top: 3px ;
+    margin-top: 3px;
 }
 
 #divSubText {
@@ -102,10 +102,11 @@ body {
     margin-right: 31%; */
 
 }
+
 input:focus {
-    outline: none; 
-    border-color: initial; 
-    
+    outline: none;
+    border-color: initial;
+
 }
 
 #contactForm {
@@ -154,9 +155,26 @@ input[type="submit"] {
 
 }
 
+.divImage {
+    /* z-index: 999; */
+    justify-content: center;
+    display: flex;
 
+}
 
 @media only screen and (max-width: 520px) {
+    .divImage {
+        margin: -10%;
+        margin-top: 10%;
+    }
+
+    #head_top {
+        width: 84%;
+    }
+
+    #head_bottom {
+        width: 84%;
+    }
 
     .launchText {
         font-size: 1.625em;
@@ -164,8 +182,8 @@ input[type="submit"] {
 
     .firstRow {
         /* height: 697px; */
-        height: auto ;
-        
+        height: auto;
+
         background-color: #212156;
     }
 
@@ -177,7 +195,7 @@ input[type="submit"] {
     /* .numTwoRow{
         margin-top: -15%
     } */
-    .numTwoRow{
+    .numTwoRow {
         /* margin-top: -9%; */
         margin-top: 11%;
     }
@@ -235,16 +253,13 @@ input[type="submit"] {
         padding-bottom: 8%;
     }
 
-    #head_top {
-        width: 360px;
 
-    }
     input[type="submit"] {
-       
+
         width: 123%;
         margin-left: -18%;
-        
+
     }
-    
+
 
 }
