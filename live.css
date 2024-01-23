@@ -163,10 +163,11 @@ input[type="submit"] {
 }
 
 @media only screen and (max-width: 520px) {
-    .divImage {
+    /* .divImage {
         margin: -10%;
         margin-top: 10%;
-    }
+    } */
+    
 
     #head_top {
         width: 84%;
